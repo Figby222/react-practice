@@ -9,4 +9,8 @@ RenderName.propTypes = {
     name: PropTypes.string.isRequired,
 };
 
+RenderName.defaultProps = {
+    name: "Ryan",
+}
+
 export default RenderName;
